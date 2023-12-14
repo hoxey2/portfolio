@@ -1,0 +1,58 @@
+.skills {
+  position: relative;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80rem;
+}
+.profile {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  border: 3px solid rgb(242, 235, 255);
+  background: url(/public/img/study_me.jpg);
+  background-size: cover;
+}
+.bg_icon {
+  position: absolute;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  border: 3px solid rgb(222, 206, 255);
+}
+.html {
+  top: 33%;
+  transform: translate(0%, -50%);
+  background: url(/public/tech/html.png);
+  background-size: cover;
+}
+.css {
+  left: 27%;
+  bottom: 30%;
+  transform: translate(0%, -50%);
+  background: url(/public/tech/css.png);
+  background-size: cover;
+}
+.javascript {
+  right: 27%;
+  bottom: 30%;
+  transform: translate(0%, -50%);
+  background: url(/public/tech/javascript.png);
+  background-size: cover;
+}
+.sm_icon {
+  position: absolute;
+  bottom: 0;
+  width: 5rem;
+  height: 5rem;
+  border: 3px solid rgb(140, 82, 255);
+  border-radius: 50%;
+}

@@ -1,0 +1,21 @@
+.App {
+  overflow: hidden;
+}
+.index_wrap {
+  width: 100%;
+  text-align: start;
+}
+.index {
+  width: 33.3%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  align-items: center;
+  border-radius: 8px 0 12px 0;
+  background-color: rgba(140, 82, 255, 0.3);
+  box-sizing: border-box;
+}
+.index h2 {
+  color: rgba(85, 26, 139, 0.8);
+}

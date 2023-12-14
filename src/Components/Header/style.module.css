@@ -1,0 +1,132 @@
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: block;
+  background: linear-gradient(
+    90deg,
+    rgb(140, 82, 255) 50%,
+    rgb(154, 103, 255) 65%,
+    rgb(162, 115, 255) 100%
+  );
+  z-index: 10000;
+}
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 7.2rem;
+  padding: 1.3rem;
+  padding-right: 0;
+  box-sizing: border-box;
+}
+/* neon effect */
+.neon-border {
+  border: 0 none;
+  border-bottom: 4px solid transparent;
+  border-image: linear-gradient(45deg, #01ffff, #01ffc3);
+  border-image-slice: 1;
+  animation: neonEffect 3s ease-in-out infinite;
+}
+
+@keyframes neonEffect {
+  0% {
+    border-image-source: linear-gradient(45deg, #01ffc3, #01ffff);
+  }
+  33% {
+    border-image-source: linear-gradient(45deg, #01ffff, #ffb3fd);
+  }
+  66% {
+    border-image-source: linear-gradient(45deg, #ffb3fd, #9d72ff);
+  }
+  100% {
+    border-image-00ffff: linear-gradient(45deg, #9d72ff, #01ffc3);
+  }
+}
+.logo {
+  font-size: 2.4rem;
+  white-space: nowrap;
+  color: #ffffff;
+  text-shadow:
+    3px -3px #00ffff,
+    -3px 3px #ff00ff;
+  cursor: pointer;
+  transition: all 0.7s;
+}
+.logo:hover {
+  color: transparent;
+}
+.navbar {
+  display: none;
+}
+.nav_menu {
+  display: flex;
+  align-items: center;
+}
+.nav_menu_list {
+  color: #551a8b;
+  padding: 1.5rem;
+}
+.nav_menu_list:hover {
+  color: transparent;
+  text-shadow:
+    3px -3px #00ffff,
+    -3px 3px #ff00ff;
+  transition: all 0.7s;
+}
+
+@media all and (min-width: 768px) {
+  .navbar {
+    display: inline-block;
+  }
+  .hamburger {
+    display: none;
+  }
+}
+.hamburger {
+  background-color: rgba(256, 256, 256, 0.1);
+  width: 7.4rem;
+  height: 7.1rem;
+  cursor: pointer;
+  border-left: 2px solid rgba(256, 256, 256, 0.25);
+  box-sizing: border-box;
+  transition: background-color 0.5s;
+}
+.hamburger:hover {
+  background-color: rgba(256, 256, 256, 0.9);
+}
+.dropdown_menu {
+  position: absolute;
+  top: 7.6rem;
+  right: 0;
+  left: 0;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(0.5rem);
+  box-sizing: border-box;
+  z-index: 1000;
+  transition: all 0.5s;
+}
+.dropdown_menu ul {
+  height: 100%;
+}
+.dropdown_menu li {
+  position: relative;
+  display: table;
+  width: 100%;
+  height: 33.33%;
+}
+.dropdown_menu li a {
+  font-size: 1.4rem;
+  color: #ffffff;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 2rem;
+  box-sizing: border-box;
+  transition: all 0.5s;
+}
+.dropdown_menu li a:hover {
+  background-color: rgba(140, 82, 255, 0.8);
+}

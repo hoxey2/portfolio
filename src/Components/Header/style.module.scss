@@ -1,0 +1,110 @@
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: block;
+  background: linear-gradient(
+    90deg,
+    rgb(140, 82, 255) 50%,
+    rgb(154, 103, 255) 65%,
+    rgb(162, 115, 255) 100%
+  );
+  z-index: 10000;
+}
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 7.2rem;
+  padding: 1.3rem;
+  padding-right: 0;
+  box-sizing: border-box;
+}
+.logo {
+  font-size: 2.4rem;
+  white-space: nowrap;
+  color: #ffffff;
+  text-shadow:
+    3px -3px #00ffff,
+    -3px 3px #ff00ff;
+  cursor: pointer;
+  transition: all 0.7s;
+  &:hover {
+  color: transparent;
+}
+}
+.navbar {
+  display: none;
+
+  ol {
+  display: flex;
+  align-items: center;
+  }
+  h2 {
+    color: #551a8b;
+    padding: 1.5rem;
+    transition: all 0.7s;
+    &:hover {
+    color: transparent;
+    text-shadow:
+      3px -3px #00ffff,
+      -3px 3px #ff00ff;
+        }
+    }
+}
+.hamburger {
+  background-color: rgba(256, 256, 256, 0.1);
+  width: 7.4rem;
+  height: 7.1rem;
+  cursor: pointer;
+  border-left: 2px solid rgba(256, 256, 256, 0.25);
+  box-sizing: border-box;
+  transition: background-color 0.5s;
+  &:hover {
+    background-color: rgba(256, 256, 256, 0.9);
+  }
+}
+.dropdown_menu {
+  position: absolute;
+  top: 7.2rem;
+  right: 0;
+  left: 0;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(0.5rem);
+  box-sizing: border-box;
+  z-index: 1000;
+  transition: all 0.5s;
+
+  ul {
+    height: 100%;
+  }
+  li {
+      position: relative;
+      display: table;
+      width: 100%;
+      height: 33.33%;
+    }
+  a {
+      font-size: 1.4rem;
+      color: #ffffff;
+      display: table-cell;
+      vertical-align: middle;
+      padding-left: 2rem;
+      box-sizing: border-box;
+      transition: all 0.5s;
+      &:hover {
+        background-color: rgba(140, 82, 255, 0.8);
+      }
+    }
+}
+@media all and (min-width: 768px) {
+  .navbar {
+    display: inline-block;
+  }
+  .hamburger {
+    display: none;
+  }
+}

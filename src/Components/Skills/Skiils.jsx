@@ -11,11 +11,16 @@ const Skills = () => {
           </div>
         </div>
         <div className={styles.skills}>
-          <div className={styles.profile}></div>
-          <div className={`${styles.bg_icon} ${styles.html}`}></div>
-          <div className={`${styles.bg_icon} ${styles.css}`}></div>
-          <div className={`${styles.bg_icon} ${styles.javascript}`}></div>
-          <div className={styles.sm_icon}></div>
+          <div className={styles.html_group}>
+            <div className={`${styles.html} ${styles.big_icon}`}></div>
+            <div className={styles.md_icon}></div>
+          </div>
+          <div className={styles.css_group}>
+            <div className={`${styles.css} ${styles.big_icon}`}></div>
+          </div>
+          <div className={styles.js_group}>
+            <div className={`${styles.js} ${styles.big_icon}`}></div>
+          </div>
         </div>
       </section>
     </Card>

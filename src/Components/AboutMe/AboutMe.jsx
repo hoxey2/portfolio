@@ -1,5 +1,5 @@
 import Card from "../../UI/Card/Card";
-import styles from "./style.module.css";
+import styles from "./style.module.scss";
 const AboutMe = () => {
   return (
     <Card>

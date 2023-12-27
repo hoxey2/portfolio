@@ -1,4 +1,4 @@
-import styles from "./style.module.css";
+import styles from "./style.module.scss";
 import { useState } from "react";
 const Header = () => {
   const [hamburgerOn, setHamburger] = useState(false);
@@ -16,26 +16,26 @@ const Header = () => {
     backgroundRepeat: "no-repeat",
   };
   return (
-    <header className={`${styles.header} ${styles["neon-border"]}`}>
+    <header>
       <div className={styles.header_inner}>
         <a href="#">
           <h1 className={styles.logo}>Hoxey2 portfolio</h1>
         </a>
         <div className={styles.navbar}>
-          <ol className={styles.nav_menu}>
+          <ol>
             <li>
               <a href="#about_me">
-                <h2 className={styles.nav_menu_list}>About Me</h2>
+                <h2>About Me</h2>
               </a>
             </li>
             <li>
               <a href="#skills">
-                <h2 className={styles.nav_menu_list}>Skills</h2>
+                <h2>Skills</h2>
               </a>
             </li>
             <li>
               <a href="#my_projects">
-                <h2 className={styles.nav_menu_list}>My Projects</h2>
+                <h2>My Projects</h2>
               </a>
             </li>
           </ol>

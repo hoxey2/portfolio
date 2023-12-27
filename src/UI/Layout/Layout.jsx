@@ -1,4 +1,4 @@
-import "./Layout.css";
+import "./style.scss";
 const Layout = ({ children }) => {
   return <main className="layout">{children}</main>;
 };

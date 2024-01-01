@@ -2,7 +2,7 @@ import "./App.scss";
 import Header from "./components/Header/Header";
 import Layout from "./UI/Layout/Layout";
 import AboutMe from "./components/AboutMe/AboutMe";
-import Skills from "./components/Skills/Skiils";
+import Skills from "./components/Skills/Skills";
 
 function App() {
   return (

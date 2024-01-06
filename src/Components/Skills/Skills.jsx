@@ -133,10 +133,10 @@ const Skills = () => {
                 <img src={imgSrc.github} alt="github" />
               </div>
               <div>
-                <img src={imgSrc.firebase} alt="firebase" />
+                <img src={imgSrc.jquery} alt="jquery" />
               </div>
               <div>
-                <img src={imgSrc.jquery} alt="jquery" />
+                <img src={imgSrc.firebase} alt="firebase" />
               </div>
               <div>
                 <img src={imgSrc.awsS3} alt="awsS3" />

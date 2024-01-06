@@ -1,8 +1,9 @@
 import "./App.scss";
-import Header from "./components/Header/Header";
+import Header from "./Components/Header/Header";
 import Layout from "./UI/Layout/Layout";
-import AboutMe from "./components/AboutMe/AboutMe";
-import Skills from "./components/Skills/Skills";
+import AboutMe from "./Components/AboutMe/AboutMe";
+import Skills from "./Components/Skills/Skills";
+import MyProjects from "./Components/MyProjects/MyProjects";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Layout>
         <AboutMe />
         <Skills />
+        <MyProjects />
       </Layout>
     </div>
   );

@@ -1,0 +1,13 @@
+.innerCard {
+  width: 80%;
+  padding: 3rem;
+  margin: 3rem auto;
+  text-align: center;
+  border: 3px solid rgba(140, 82, 255, 0.1);
+  border-radius: 1rem;
+  transition: all 0.5s;
+  
+  &:hover {
+    border: 3px solid rgba(140, 82, 255, 0.3);
+  }
+}

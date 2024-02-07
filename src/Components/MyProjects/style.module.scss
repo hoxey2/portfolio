@@ -38,10 +38,10 @@
     }
   }
   h3 {
-    background-color: rgb(230, 230, 230);
+    background-color: rgba(230, 230, 230, 0.2);
     padding: 2rem 0;
     ul {
-      width: 80%;
+      width: 90%;
       display: inline-block;
       margin: 0 auto;
     }
@@ -49,7 +49,7 @@
       list-style: circle;
       font-family: "NotoSansKR";
       text-align: start;
-      margin-left: 30%;
+      margin-left: 25%;
       padding: 1rem 0;
       color: #551a8b;
 

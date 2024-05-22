@@ -10,13 +10,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "canvas-confetti": "^1.9.3",
     "chart.js": "^4.4.0",
     "react": "^18.2.0",
+    "react-canvas-confetti": "^2.0.7",
     "react-chartjs-2": "^5.2.0",
+    "react-confetti": "^6.1.0",
+    "react-confetti-explosion": "^2.1.2",
     "react-dom": "^18.2.0",
     "sass": "^1.69.5"
   },
   "devDependencies": {
+    "@swc/cli": "^0.3.12",
+    "@swc/core": "^1.5.7",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react-swc": "^3.3.2",

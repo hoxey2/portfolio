@@ -60,12 +60,14 @@
     left: 0;
 
     span {
-      font-size: 1.4rem;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 1rem;
       color: #fff;
+      writing-mode: vertical-rl;
+      text-orientation:upright;
+      letter-spacing: 3px;
     }
-
   }
-  
 }
 .icon_group {
   display: flex;
@@ -76,28 +78,49 @@
 
   div {
     margin: 0 auto;
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 5rem;
+    height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 15%;
-    border: 2px solid #eee;
-    transition: 0.5s all;
+    border: 2px solid #eeeeee;
+    overflow: hidden;
+    transition: 0.25s all;
 
     &:hover {
-      border: 2px solid #ccc;
-      box-shadow: 0 0 0 1px #ccc inset; 
-      opacity: 0.3;
+      border: 2px solid #eeeeee;
+      box-shadow: 0 0 0 1px #eeeeee inset; 
     }
     &:hover img{
-        animation: shake 0.9s ease-in-out infinite;
+      opacity: 0.1;
       }
+
+    &:hover span{
+      opacity: 1;
+      bottom: 33%;
+      transform: rotateX(0);
+    }
+
+    & span {
+      position: absolute;
+      bottom: -10px;
+      font-size: 12px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+      color: #fff;
+      padding: 4px;
+      border-radius: 5px;
+      background-color: #551A8B;
+      background-color: rgb(162, 115, 255);
+      opacity: 0;
+      transform: rotateX(90deg);
+      transition: 0.3s all;
+    }
 
     & img {
     width: 70%;
     border-radius: 20%;
-      
+    transition: 0.3s all;
     }
     & img[alt="vuetify"] {
       width: 60%;
@@ -109,10 +132,30 @@
 }
 
 @media all and (min-width: 900px) {
+  .basic_group {
+    .title {
+      span {
+        font-size: 1.5rem;
+      }
+    }
+  }
   .icon_group {
+    
     div {
       width: 7rem;
       height: 7rem;
+
+      &:hover span{
+      opacity: 1;
+      bottom: 33%;
+      transform: rotateX(0);
+    }
+
+      & span {
+        bottom: -15px;
+        font-size: 18px;
+        padding: 4px;
+      }
     }
   }
 }

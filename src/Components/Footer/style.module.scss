@@ -1,0 +1,33 @@
+footer {
+  position: relative;
+  display: block;
+  bottom: 0;
+  background-color: rgb(162, 115, 255);
+  z-index: 10000;
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 0 1rem;
+    font-size: 2rem;
+    text-align: center;
+
+    h1 {
+      margin: 0;
+      padding: 0;
+    }
+    h5 {
+      margin: 0;
+      padding: 0;
+    }
+    .twinkle {
+      font-size: 1.8rem;
+      transition: 0.7s all;
+      text-shadow:
+        3.5px -3.5px #00ffff,
+        // -3.5px 3.5px #ff00ff;
+    }
+}
+}

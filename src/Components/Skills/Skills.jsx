@@ -1,4 +1,5 @@
 import Card from "../../UI/Card/Card";
+import innerCard from "../../UI/InnerCard/InnerCard";
 import styles from "./style.module.scss";
 
 const Skills = () => {
@@ -17,7 +18,7 @@ const Skills = () => {
         sass: "sass",
         styleComponent: "styleComponent",
         tailwind: "tailwind",
-        ant: "ant",
+        antDesign: "antDesign",
       },
     },
     react: {

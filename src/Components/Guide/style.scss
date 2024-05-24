@@ -1,0 +1,94 @@
+.guideBox {
+  position: relative;
+  width: 100%;
+  padding: 0 2rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  text-align: start;
+  box-shadow: 0 -1px 15px -10px rgba(140, 82, 255, 0.5), 1px 1px 15px -10px rgba(140, 82, 255, 0.5), -1px 0 15px -10px rgba(140, 82, 255, 0.5);
+  border-radius: 1.4rem;
+  box-sizing: border-box;
+  transition: all 1s;
+  overflow: hidden;
+
+    .flexBox {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+
+      h2 {
+        font-size: 1.8rem;
+        font-family: "NotoSansKR_Black";
+      }
+    }
+}
+.accordion {
+  max-height: 0;
+  transition: 0.5s all;
+}
+.svg_up {
+  width: 2rem;
+  height: 2rem;
+  color: #fff;
+  background-color: rgba(85, 26, 139, 0.7);
+  padding: 0.5rem;
+  border-radius: 50%;
+  stroke-width: 25px;
+  cursor: pointer;
+  transition: 0.8s all;
+  
+}
+.svg_down{
+  width: 2rem;
+  height: 2rem;
+  color: #fff;
+  background-color: rgba(85, 26, 139, 0.3);
+  padding: 0.5rem;
+  border-radius: 50%;
+  stroke-width: 25px;
+  rotate: 180deg;
+  cursor: pointer;
+  transition: 0.8s all;
+}
+.structure {
+  h2 {
+    font-size: 1.6rem;
+    font-family: "NotoSansKR_Black";
+    margin-bottom: 1rem;
+  }
+  div {
+    width: 65%;
+    padding: 3rem 4rem;
+    margin: 5rem auto;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: 3px solid #fff;
+    h3 {
+      font-size: 1.5rem;
+      font-family: "NotoSansKR";
+      margin: 0;
+      li {
+        padding: 3px 0;
+        span {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  img {
+    width: 65%;
+    opacity: 85%;
+    border-radius: 1rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    display: block;
+    box-shadow: 
+    10px 0 15px -10px #fff,
+    -10px 0 15px -10px #fff,
+    ;
+  }
+}
+
+

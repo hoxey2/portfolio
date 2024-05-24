@@ -5,16 +5,17 @@
   margin-bottom: 15rem;
   text-align: start;
   background-color: #fff;
-  border: 3px solid rgb(234, 223, 255);
   border-radius: 1rem;
   box-sizing: border-box;
+  box-shadow:
+  0 -1px 15px -10px rgba(140, 82, 255, 0.5),
+  1px 1px 15px -10px rgba(140, 82, 255, 0.5), 
+  -1px 0 15px -10px rgba(140, 82, 255, 0.5);
+  border: 3px solid transparent;
   transition: all 1s;
   
   &:hover {
-    box-shadow:
-      -5px -5px 30px 5px rgba(140, 82, 255, 0.5),
-      5px 5px 30px 5px rgba(140, 82, 255, 0.5);
-    border: 3px solid transparent;
+    border: 3px solid rgb(234, 223, 255);
   }
 }
 @media all and (min-width: 900px) {
@@ -22,11 +23,13 @@
     min-width: 60rem;
     max-width: 50%;
   }
-  
+  .guideBox {
+    min-width: 60rem;
+    max-width: 50%;
+  }
   .layout {
     width: 100%;
     display: flex;
-    padding: 5rem 0;
   }
 }
 @media all and (min-width: 1440px) {
@@ -34,8 +37,11 @@
     min-width: 85rem;
     max-width: 50%;
   }
+  .guideBox {
+    min-width: 85rem;
+    max-width: 50%;
+  }
   .layout {
     width: 100%;
-    padding: 5rem 0;
   }
 }

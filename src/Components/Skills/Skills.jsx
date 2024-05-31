@@ -69,7 +69,7 @@ const Skills = () => {
                   <div key={secKey}>
                     <span>{devTech[mainKey].tech[secKey]}</span>
                     <img
-                      src={`tech/${devTech[mainKey].tech[secKey]}.png`}
+                      src={`image/tech/${devTech[mainKey].tech[secKey]}.png`}
                       alt={devTech[mainKey].tech[secKey]}
                     ></img>
                   </div>

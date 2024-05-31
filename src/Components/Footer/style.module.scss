@@ -4,27 +4,44 @@ footer {
   bottom: 0;
   background-color: rgb(162, 115, 255);
   z-index: 10000;
-
   .content {
-    display: flex;
+    display:block;
     justify-content: space-between;
     align-items: center;
     color: #fff;
-    padding: 0 1rem;
-    font-size: 2rem;
+    padding:  1rem 3rem;
     text-align: center;
-
-    h1 {
+    h2{
+      white-space: nowrap;
       margin: 0;
       padding: 0;
+      font-size: 1.5rem;
     }
-    h5 {
-      margin: 0;
-      padding: 0;
-    }
-    .twinkle {
-      font-size: 1.8rem;
-      transition: 0.7s all;
+    span{
+      color: rgb(234, 223, 255);
+       background-image: -webkit-linear-gradient(92deg, rgba(85, 26, 139, 0.8),rgb(234, 223, 255) );
+      -webkit-background-clip: text;
+      -webkit-animation: hue 3.5s infinite linear;
     }
 }
+}
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+@media all and (min-width: 900px) {
+  footer {
+    .content {
+      display: flex;
+      h2{
+        font-size: 1.8rem;
+      }
+  }
+  }
+  
 }

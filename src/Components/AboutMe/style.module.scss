@@ -61,7 +61,7 @@
   height: 25rem;
   margin: auto;
   border-radius: 15%;
-  background: no-repeat 50% 5%/100% url("img/AI_profile.jpg");
+  background: no-repeat 50% 5%/100% url("/src/img/ai_profile.jpg");
   background-size: 100%;
   transition: all 0.7s;
 
@@ -130,37 +130,37 @@
       border-radius: 5px;
       transform: translate(-50%);
     }
-  }
-  ul {
-    position: relative;
-    text-align: start;
-    box-sizing: border-box;
-  }
-  li {
-    width: 90%;
-    position: relative;
-    margin-top: 1.5rem;
-    padding: 0 10px;
-    border-radius: 1rem;
-    box-sizing: border-box;
-    left: 5%;
-    transition: all 0.8s;
-
-    &:nth-child(odd) {
-      background-color: rgb(230, 230, 230);
+    ul {
+      position: relative;
+      text-align: start;
+      box-sizing: border-box;
     }
-    &:nth-child(even) {
-      background-color: rgb(140, 82, 255);
-    } 
-    &:hover {
-      margin-left: 10%;
-    }
-    &:nth-child(even) h3 {
-      color: #ffffff;
-    }
-    h3 {
-      font-family: NotoSansKR;
-      color: #551a8b;
+    li {
+      width: 90%;
+      position: relative;
+      margin-top: 1.5rem;
+      padding: 0 10px;
+      border-radius: 1rem;
+      box-sizing: border-box;
+      left: 5%;
+      transition: all 0.8s;
+  
+      &:nth-child(odd) {
+        background-color: rgb(230, 230, 230);
+      }
+      &:nth-child(even) {
+        background-color: rgb(140, 82, 255);
+      } 
+      &:hover {
+        margin-left: 10%;
+      }
+      h3 {
+        font-family: NotoSansKR;
+        color: #551a8b;
+      }
+      &:nth-child(even) h3 {
+        color: #ffffff;
+      }
     }
   }
 }

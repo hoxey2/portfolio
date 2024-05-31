@@ -9,8 +9,8 @@ const Header = () => {
   };
   const backgroundStyle = {
     backgroundImage: hamburgerOn
-      ? 'url("img/icon_x.png")'
-      : 'url("img/hamburger.png")',
+      ? 'url("image/icon_x.png")'
+      : 'url("image/hamburger.png")',
     backgroundSize: hamburgerOn ? "35%" : "50%",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",

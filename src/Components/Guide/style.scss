@@ -9,14 +9,13 @@
   border-radius: 1.4rem;
   box-sizing: border-box;
   transition: all 1s;
+  word-break: keep-all;
   overflow: hidden;
-
     .flexBox {
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 1rem;
-
       h2 {
         font-size: 1.8rem;
         font-family: "NotoSansKR_Black";
@@ -27,19 +26,7 @@
   max-height: 0;
   transition: 0.5s all;
 }
-.svg_up {
-  width: 2rem;
-  height: 2rem;
-  color: #fff;
-  background-color: rgba(85, 26, 139, 0.7);
-  padding: 0.5rem;
-  border-radius: 50%;
-  stroke-width: 25px;
-  cursor: pointer;
-  transition: 0.8s all;
-  
-}
-.svg_down{
+.accordion_arrow {
   width: 2rem;
   height: 2rem;
   color: #fff;
@@ -47,38 +34,48 @@
   padding: 0.5rem;
   border-radius: 50%;
   stroke-width: 25px;
-  rotate: 180deg;
   cursor: pointer;
-  transition: 0.8s all;
+  transition: 0.5s all;
 }
 .structure {
-  h2 {
-    font-size: 1.6rem;
-    font-family: "NotoSansKR_Black";
-    margin-bottom: 1rem;
-  }
-  div {
-    width: 65%;
+  padding: 2rem;
+  box-sizing: border-box;
+  p {
+    width: 88%;
     padding: 3rem 4rem;
     margin: 5rem auto;
     box-sizing: border-box;
     border-radius: 15px;
-    border: 3px solid #fff;
+    border: 1px solid #ff00ff;
+    border-style: dotted;
+    outline: 2px solid #ffffff80;
+    h2 {
+      font-size: 1.6rem;
+      font-family: "NotoSansKR_Black";
+      margin-bottom: 1rem;
+    }
+    li {
+      padding: 0.7rem 0;
+      text-indent: -18px;
+       margin-left: 18px;
+      strong {
+        color: #fff;
+      }
     h3 {
+      display: inline;
       font-size: 1.5rem;
       font-family: "NotoSansKR";
-      margin: 0;
-      li {
-        padding: 3px 0;
-        span {
-          color: #fff;
+        mark {
+          background-color: #00ffff50;
+          // #00ffff /민트 
+          // #ff00ff /핑크
         }
       }
     }
   }
 
   img {
-    width: 65%;
+    width: 100%;
     opacity: 85%;
     border-radius: 1rem;
     margin: 0 auto;
@@ -89,6 +86,23 @@
     -10px 0 15px -10px #fff,
     ;
   }
+}
+@media all and (min-width: 900px) { 
+  .structure{ 
+    p {
+      width: 75%;
+    }
+  }
+}
+@media all and (min-width: 1440px) {
+  .structure{ 
+    p {
+      width: 70%;
+    }
+    img {
+    width: 70%;
+  }
+}
 }
 
 

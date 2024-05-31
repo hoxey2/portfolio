@@ -45,7 +45,7 @@ const AboutMe = () => {
                   href="https://github.com/hoxey2"
                   rel="noreferrer"
                 >
-                  <img src="/img/icon_github_w.png" />
+                  <img src="image/icon_github_w.png" />
                   <span>github</span>
                 </a>
               </li>
@@ -55,7 +55,7 @@ const AboutMe = () => {
                   href="https://front-hoxey2.tistory.com/"
                   rel="noreferrer"
                 >
-                  <img src="/img/icon_blog_w.png" />
+                  <img src="image/icon_blog_w.png" />
                   <span>blog</span>
                 </a>
               </li>
@@ -65,7 +65,7 @@ const AboutMe = () => {
                   href="mailto:hoxey2@gmail.com"
                   rel="noreferrer"
                 >
-                  <img src="/img/icon_mail_w.png" />
+                  <img src="image/icon_mail_w.png" />
                   <span>mail</span>
                 </a>
               </li>
@@ -75,7 +75,7 @@ const AboutMe = () => {
                   href="https://hoxey2023.notion.site/81ba77b11ece44c8b17f20ed5098b4e7?pvs=4"
                   rel="noreferrer"
                 >
-                  <img src="/img/icon_resume_w.png" />
+                  <img src="image/icon_resume_w.png" />
                   <span>resume</span>
                 </a>
               </li>

@@ -16,13 +16,13 @@
     transition: all 1s;
   }
   .project1 {
-    background-image: url(projects/project1.png);
+    background-image: url(/src/img/project1.png);
   }
   .project2 {
-    background-image: url(projects/project2.png);
+    background-image: url(/src/img/project2.png);
   }
   .project3 {
-    background-image: url(projects/project3.png);
+    background-image: url(/src/img/project3.png);
   }
   div:hover {
     background-size: 125%;
@@ -37,40 +37,39 @@
       font-family: "NotoSansKR";
     }
   }
-  h3 {
-    background-color: rgba(230, 230, 230, 0.2);
-    padding: 2rem 0;
-    ul {
-      width: 90%;
+  ul {
+    width: 90%;
       display: inline-block;
       margin: 0 auto;
+      padding: 1rem 0;
+      box-sizing: border-box;
     }
     li {
       list-style: circle;
       font-family: "NotoSansKR";
       text-align: start;
       margin-left: 25%;
-      padding: 1rem 0;
       color: #551a8b;
-
-      &:last-child a{
-        color: #8c52ff;
-        display: inline-flex;
-        align-items: center;
-        transition: all 0.7s;
-
-        &:hover {
-          color: #222;
-        }
-
+      h3 {
+        padding: 1rem 0;
         img {
           margin-left: 0.8rem;
           width: 1.6rem;
           height: 1.6rem;
         }
+
       }
+      &:last-child a{
+        color: #8c52ff;
+        display: inline-flex;
+        align-items: center;
+        transition: all 0.7s;
+        
+        &:hover {
+          color: #222;
+        }
+       
     }
-    
   }
 }
 

@@ -19,22 +19,30 @@ const MyProjects = () => {
             <span>
               <h2>대한민국 구석구석 리워크</h2>
             </span>
-            <h3>
-              <ul>
-                <li>5인 팀프로젝트로 진행</li>
-                <li>
+            <ul>
+              <li>
+                <h3>5인 팀프로젝트로 진행</h3>
+              </li>
+              <li>
+                <h3>
                   맡은 파트 - 메인/테마여행, 패키지&테마, 가볼래터, 여행지도
-                </li>
-                <li>순수 HTML, CSS, Javascript로 제작</li>
-                <li>JQuery로 애니메이션 구현</li>
-                <li>
+                </h3>
+              </li>
+              <li>
+                <h3>순수 HTML, CSS, Javascript로 제작</h3>
+              </li>
+              <li>
+                <h3>JQuery로 애니메이션 구현</h3>
+              </li>
+              <li>
+                <h3>
                   <a href="https://github.com/hoxey2/Team4_Project">
                     Github 링크
-                    <img src="tech/github.png" />
+                    <img src="image/tech/github.png" />
                   </a>
-                </li>
-              </ul>
-            </h3>
+                </h3>
+              </li>
+            </ul>
           </div>
         </InnerCard>
         <InnerCard>
@@ -45,20 +53,28 @@ const MyProjects = () => {
             <span>
               <h2>롤 전적사이트 Vow.kr</h2>
             </span>
-            <h3>
-              <ul>
-                <li>Vue.js를 이용한 SPA 사이트</li>
-                <li>반응형 웹 앱 ( 모바일,pc )</li>
-                <li>Riot API로 데이터 불러옴</li>
-                <li>Vuex, Vue-router, Vuetify</li>
-                <li>
+            <ul>
+              <li>
+                <h3>Vue.js를 이용한 SPA 사이트</h3>
+              </li>
+              <li>
+                <h3>반응형 웹 앱 ( 모바일,pc )</h3>
+              </li>
+              <li>
+                <h3>Riot API로 데이터 불러옴</h3>
+              </li>
+              <li>
+                <h3>Vuex, Vue-router, Vuetify</h3>
+              </li>
+              <li>
+                <h3>
                   <a href="https://github.com/hoxey2/VOW.KR">
                     Github 링크
-                    <img src="tech/github.png" />
+                    <img src="image/tech/github.png" />
                   </a>
-                </li>
-              </ul>
-            </h3>
+                </h3>
+              </li>
+            </ul>
           </div>
         </InnerCard>
         <InnerCard>
@@ -69,19 +85,25 @@ const MyProjects = () => {
             <span>
               <h2>나의 개발일지 DOG</h2>
             </span>
-            <h3>
-              <ul>
-                <li>React.js를 이용한 SPA 사이트</li>
-                <li>Redux(react-redux), React-router, Ant Design</li>
-                <li>Firebase를 통한 DB, 배포</li>
-                <li>
+            <ul>
+              <li>
+                <h3>React.js를 이용한 SPA 사이트</h3>
+              </li>
+              <li>
+                <h3>Redux(react-redux), React-router, Ant Design</h3>
+              </li>
+              <li>
+                <h3>Firebase를 통한 DB, 배포</h3>
+              </li>
+              <li>
+                <h3>
                   <a href="https://github.com/hoxey2/DOG">
                     Github 링크
-                    <img src="tech/github.png" />
+                    <img src="image/tech/github.png" />
                   </a>
-                </li>
-              </ul>
-            </h3>
+                </h3>
+              </li>
+            </ul>
           </div>
         </InnerCard>
       </section>

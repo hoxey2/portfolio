@@ -1,4 +1,4 @@
-import Card from "../../UI/Card/Card";
+import Card from "../../ui/Card/Card";
 import styles from "./style.module.scss";
 const AboutMe = () => {
   return (

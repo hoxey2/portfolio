@@ -16,13 +16,16 @@
     transition: all 1s;
   }
   .project1 {
-    background-image: url(/src/img/project1.png);
+    background-image: url(src/assets/img/project1.png);
   }
   .project2 {
-    background-image: url(/src/img/project2.png);
+    background-image: url(src/assets/img/project2.png);
   }
   .project3 {
-    background-image: url(/src/img/project3.png);
+    background-image: url(src/assets/img/project3.png);
+  }
+  .project4 {
+    background-image: url(src/assets/img/project4.png);
   }
   div:hover {
     background-size: 125%;

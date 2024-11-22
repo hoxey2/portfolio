@@ -1,12 +1,12 @@
 import "./App.scss";
-import Header from "./Components/Header/Header";
+import Header from "./components/Header/page";
 import Layout from "./UI/Layout/Layout";
-import AboutMe from "./Components/AboutMe/AboutMe";
-import Skills from "./Components/Skills/Skills";
-import MyProjects from "./Components/MyProjects/MyProjects";
-import Footer from "./Components/Footer/Footer";
+import AboutMe from "./components/AboutMe/page";
+import Skills from "./components/Skills/page";
+import MyProjects from "./components/MyProjects/page";
+import Footer from "./components/Footer/page";
 import React from "react";
-import Guide from "./Components/Guide/Guide";
+import Guide from "./components/Guide/page";
 
 function App() {
   return (

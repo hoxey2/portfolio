@@ -1,5 +1,5 @@
-import Card from "../../UI/Card/Card";
-import InnerCard from "../../UI/InnerCard/InnerCard";
+import Card from "../../ui/Card/Card";
+import InnerCard from "../../ui/InnerCard/InnerCard";
 import styles from "./style.module.scss";
 
 const MyProjects = () => {
@@ -13,7 +13,7 @@ const MyProjects = () => {
         </div>
         <InnerCard>
           <div className={styles.innerCard_content}>
-            <a href="https://musical-sable-320463.netlify.app/">
+            <a href="https://musical-sable-320463.netlify.app/" target="_blank">
               <div className={styles.project1} />
             </a>
             <span>
@@ -36,7 +36,7 @@ const MyProjects = () => {
               </li>
               <li>
                 <h3>
-                  <a href="https://github.com/hoxey2/Team4_Project">
+                  <a href="https://github.com/hoxey2/Team4_Project" target="_blank">
                     Github 링크
                     <img src="image/tech/github.png" />
                   </a>
@@ -47,7 +47,7 @@ const MyProjects = () => {
         </InnerCard>
         <InnerCard>
           <div className={styles.innerCard_content}>
-            <a href="https://vowkr.netlify.app/">
+            <a href="https://vowkr.netlify.app/" target="_blank">
               <div className={styles.project2} />
             </a>
             <span>
@@ -68,7 +68,7 @@ const MyProjects = () => {
               </li>
               <li>
                 <h3>
-                  <a href="https://github.com/hoxey2/VOW.KR">
+                  <a href="https://github.com/hoxey2/VOW.KR" target="_blank">
                     Github 링크
                     <img src="image/tech/github.png" />
                   </a>
@@ -79,7 +79,7 @@ const MyProjects = () => {
         </InnerCard>
         <InnerCard>
           <div className={styles.innerCard_content}>
-            <a href="https://doge-37221.web.app/">
+            <a href="https://doge-37221.web.app/" target="_blank">
               <div className={styles.project3} />
             </a>
             <span>
@@ -97,7 +97,39 @@ const MyProjects = () => {
               </li>
               <li>
                 <h3>
-                  <a href="https://github.com/hoxey2/DOG">
+                  <a href="https://github.com/hoxey2/DOG" target="_blank">
+                    Github 링크
+                    <img src="image/tech/github.png" />
+                  </a>
+                </h3>
+              </li>
+            </ul>
+          </div>
+        </InnerCard>
+        <InnerCard>
+          <div className={styles.innerCard_content}>
+            <a href="https://temp-home-away-vert.vercel.app/" target="_blank">
+              <div className={styles.project4} />
+            </a>
+            <span>
+              <h2>Airbnb 클론코딩</h2>
+            </span>
+            <ul>
+              <li>
+                <h3>Airbnb 서비스 클론코딩 사이트</h3>
+              </li>
+              <li>
+                <h3>Next.js 14(Dev)/ Zod(State)/ Clerk(Auth)/ Prisma, Supabase(Database), Tailwind, Shadcn-ui(UI), Typescript, Vercel(Deploy)</h3>
+              </li>
+              <li>
+                <h3>무료 라이브러리를 활용한 빠른 개발</h3>
+              </li>
+              <li>
+                <h3>현재 로그인시 Vercel에서 오류 발생(해결예정)</h3>
+              </li>
+              <li>
+                <h3>
+                  <a href="https://github.com/hoxey2Front/temp-home-away" target="_blank">
                     Github 링크
                     <img src="image/tech/github.png" />
                   </a>

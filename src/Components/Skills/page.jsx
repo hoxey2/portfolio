@@ -1,5 +1,5 @@
-import Card from "../../UI/Card/Card";
-import innerCard from "../../UI/InnerCard/InnerCard";
+import Card from "../../ui/Card/Card";
+import innerCard from "../../ui/InnerCard/InnerCard";
 import styles from "./style.module.scss";
 
 const Skills = () => {

@@ -50,6 +50,53 @@ const Skills = () => {
       },
     },
   };
+  // let devTech = {
+  //   basic: {
+  //     name: "basic",
+  //     tech: {
+  //       html,
+  //       css,
+  //       javascript,
+  //     },
+  //   },
+  //   css: {
+  //     name: "css",
+  //     tech: {
+  //       sass,
+  //       styleComponent,
+  //       tailwind,
+  //       antDesign,
+  //     },
+  //   },
+  //   react: {
+  //     name: "react",
+  //     tech: {
+  //       react,
+  //       redux,
+  //       mobx,
+  //       reactQuery,
+  //       reduxSaga,
+  //     },
+  //   },
+  //   vue: {
+  //     name: "vue",
+  //     tech: {
+  //       vue,
+  //       vuex,
+  //       vuetify,
+  //     },
+  //   },
+  //   study: {
+  //     name: "study",
+  //     tech: {
+  //       nextjs,
+  //       github,
+  //       jquery,
+  //       firebase,
+  //       awsS3,
+  //     },
+  //   },
+  // };
   return (
     <Card>
       <section id="skills">

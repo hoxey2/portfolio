@@ -108,7 +108,7 @@ const MyProjects = () => {
         </InnerCard>
         <InnerCard>
           <div className={styles.innerCard_content}>
-            <a href="https://temp-home-away-vert.vercel.app/" target="_blank">
+            <a href="https://airvnv.vercel.app/" target="_blank">
               <div className={styles.project4} />
             </a>
             <span>
@@ -125,11 +125,11 @@ const MyProjects = () => {
                 <h3>무료 라이브러리를 활용한 빠른 개발</h3>
               </li>
               <li>
-                <h3>현재 로그인시 Vercel에서 오류 발생(해결예정)</h3>
+                <h3>인증 기능이 도메인 때문에 정상 작동x</h3>
               </li>
               <li>
                 <h3>
-                  <a href="https://github.com/hoxey2Front/temp-home-away" target="_blank">
+                  <a href="https://github.com/hoxey2Front/Airvnv" target="_blank">
                     Github 링크
                     <img src="image/tech/github.png" />
                   </a>
